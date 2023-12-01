@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="4.300866">
+<testcase classname="Validate the forgotten password functionality" name="Validate the forgotten with invalid mobile number" time="4.300866">
+<failure message="java.lang.AssertionError: check forgot&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.stepdefinition.ForgottenStepDefenition.userShouldNavigateToRecoverPage(ForgottenStepDefenition.java:47)&#13;&#10;&#9;at ✽.User should navigate to recover page(file:src/test/resources/FeautureFiles/Forgotten.feature:8)&#13;&#10;"><![CDATA[When User should click the forgotten password link..........................passed
+And User should input invalid mobile number on the textbox..................passed
+And User should click the search button.....................................passed
+Then User should navigate to recover page...................................failed
+
+StackTrace:
+java.lang.AssertionError: check forgot
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.stepdefinition.ForgottenStepDefenition.userShouldNavigateToRecoverPage(ForgottenStepDefenition.java:47)
+	at ✽.User should navigate to recover page(file:src/test/resources/FeautureFiles/Forgotten.feature:8)
+]]></failure>
+</testcase>
+</testsuite>
